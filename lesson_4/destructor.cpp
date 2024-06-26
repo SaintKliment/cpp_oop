@@ -11,7 +11,7 @@ public:
     PointND(unsigned sz) : total(sz) { 
         coords = new int[total] {0};
         }
-    PointND(int* cr, unsigned len) : PointND(len) { // delegate constructor
+    PointND(int* cr, unsigned len) : PointND(len) { // delegate constructor 
         // coords = new int[total];
         set_coords(cr, len);
     }
